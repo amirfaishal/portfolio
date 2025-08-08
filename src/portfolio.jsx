@@ -1,6 +1,6 @@
 // Portfolio.jsx – Professional Portfolio with Icons for Tools and Sections
 import React from "react";
-import "./Portfolio.css";
+import "./portfolio.css";
 import {
   FaPaperPlane,
   FaEnvelope,
