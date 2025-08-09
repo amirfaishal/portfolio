@@ -134,18 +134,26 @@ useEffect(() => {
         </ul>
       </nav>
 
-      {/* Hero Section */}
-      <section className="hero" id="hero">
-        
-        <h2>Hi, I'm Amir Faishal</h2>
-       <p>
- Code meets impact — building smart apps & modern web with ML, logic, and creativity
-</p>
-<canvas ref={canvasRef} className="constellation-canvas"></canvas>
+     {/* Hero Section */}
+{/* Hero Section */}
+<section className="hero" id="hero">
+  <h2>Hi, I'm Amir Faishal</h2>
+  <p>
+    Code meets impact — building smart apps & modern web with ML, logic, and creativity
+  </p>
+
+  {/* Chat with Me Button */}
+  <button 
+    className="chat-gradient-btn"
+    onClick={() => window.open('https://your-chatbot-url.onrender.com', '_blank')}
+  >
+    💬 Chat with Me
+  </button>
+
+  <canvas ref={canvasRef} className="constellation-canvas"></canvas>
+</section>
 
 
-
-      </section>
 
       {/* About Section */}
      <section className="about" id="about">
@@ -262,7 +270,15 @@ useEffect(() => {
     <div className="contact-card"><FaEnvelope className="contact-icon" /> amirfaishal484@gcekbpatna.ac.in</div>
     <div className="contact-card"><FaPhone className="contact-icon" /> +91 6372440443</div>
     <div className="contact-card"><FaGithub className="contact-icon" /> github.com/amir484</div>
-    <div className="contact-card"><FaLinkedin className="contact-icon" /> linkedin.com/in/amirfaishal</div>
+    <div> <a 
+  href="https://www.linkedin.com/in/amir-faishal-a61863269/" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="contact-card"
+>
+  <FaLinkedin className="contact-icon" /> linkedin.com/in/amirfaishal
+</a>
+</div>
   </div>
 </section>
 

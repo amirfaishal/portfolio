@@ -711,3 +711,23 @@ li {
 .tech:hover {
   background: rgba(0, 255, 229, 0.2);
 }
+.chat-gradient-btn {
+  font-size: large;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: 1px solid ;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00ffe5, #ff6bcb, #00ffe5);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.chat-gradient-btn:hover {
+  transform: scale(1.05);
+}
+
